@@ -1,0 +1,25 @@
+/// 17,210,185
+
+.Header {
+  align-self: start;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(17,210,185);
+  padding: 1.5vw 0;
+
+  img {
+    width: 6.3vw;
+    height: 6.3vw;
+    border-radius: 50%;
+    margin-left: 3vw;
+  }
+  i {
+    margin-right: 3.3vw;
+    color: #535252;
+    font-size: 5.5vw;
+  }
+}

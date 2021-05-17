@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+.OfferItem {
+  border-radius: 5px;
+  border: 2px solid #e9d277;
+  //background: #e9d277;
+  width: 37%;
+  height: 28vh;
+  margin-bottom: 3vw;
+}
+
+.wrapper {
+  padding: 3vw 3vw 2vw 3vw;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.photo_container {
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.info_block {
+
+}
+
+.title {
+  letter-spacing: .1vw;
+  font-size: 4vw;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  box-orient: vertical;
+}
+
+.price {
+  margin-top: 1vw;
+  font-size: 130%;
+  color: red;
+  font-weight: 600;
+}

@@ -1,0 +1,37 @@
+.wrapper {
+  background: mediumturquoise;
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.pop_color {
+  box-shadow:
+  0 3px 6px 6px mediumturquoise;
+  z-index: 200;
+}
+
+.shadow-top {
+  box-shadow: 0 -6px 9px 6px mediumturquoise;
+}
+
+.hr_sep {
+  width: 85%;
+  height: 3px;
+  border: none;
+  border-bottom: 1px solid #d7dbdb;
+}
+
+.separator_text {
+  color: white;
+  text-align: center;
+  font-size: 8vw;
+  font-weight: 600;
+  letter-spacing: .4vw;
+  span {
+    text-shadow: 0 0 2px 8px white;
+  }
+}

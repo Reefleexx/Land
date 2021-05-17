@@ -1,0 +1,64 @@
+.Main {
+
+}
+
+.wrapper {
+
+}
+
+.preview_container {
+  min-height: 90vh;
+  background-image: url('../../img/previewIMG.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.preview_block {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 8vw;
+  padding-left: 9vw;
+}
+
+.preview_text {
+  max-width: 55vw;
+  margin-bottom: 3vw;
+  font-size: 4.6vw;
+  font-weight: 500;
+  color: whitesmoke;
+  text-shadow: 0 0 2px white, 0 0 4px black;
+  hr {
+    height: 0;
+    margin: 1vw;
+    border: 0;
+    text-shadow: none;
+  }
+}
+
+.preview_text_block {
+  padding: 2vw;
+  border: 1px solid #87b9ec;
+  border-radius: 30%;
+  margin-top: 2vw;
+  text-align: center;
+}
+
+.preview_btn {
+  margin-left: 3.8vw;
+  margin-top: 6.5vw;
+
+  button {
+    border: none;
+    background: mediumturquoise;
+    box-shadow: 1px 1px 1px white;
+    border-radius: 6px;
+    font-size: 7vw;
+    color: white;
+    font-weight: 500;
+    text-shadow: 0 0 4px #535252, 0 0 2px white;
+    padding: 1.5vw 6vw;
+  }
+}
+
+
