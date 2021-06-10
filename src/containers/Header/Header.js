@@ -2,8 +2,7 @@ import React from 'react'
 import classes from './Header.module.scss'
 import photo from '../../img/logo.png'
 import {useDispatch} from "react-redux";
-import {openDrawer} from "../../redux/actions/appActions";
-import Menu from "../../components/Menu/Menu";
+import {openDrawer, openMainMenu} from "../../redux/actions/appActions";
 
 
 const Header = (props) => {
@@ -13,7 +12,8 @@ const Header = (props) => {
     const openBurgerHandler = e => {
         e.preventDefault()
 
-        dispatch(openDrawer(() => <Menu/>))
+        dispatch(openDrawer(() => <></>))
+        dispatch(openMainMenu())
     }
 
     return(

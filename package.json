@@ -11,6 +11,7 @@
     "is_js": "^0.9.0",
     "node-sass": "^5.0.0",
     "react": "^17.0.2",
+    "react-close-on-escape": "^3.0.0",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.4",
     "react-responsive": "^8.2.0",

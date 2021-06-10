@@ -1,0 +1,14 @@
+.Menu {
+  position: absolute;
+  z-index: 100;
+  color: red;
+  font-size: 100px;
+}
+
+.close {
+  display: none;
+}
+
+.open {
+  display: block;
+}

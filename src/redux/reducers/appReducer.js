@@ -1,7 +1,8 @@
-import {OPEN_DRAWER, CLOSE_DRAWER} from "../types";
+import {OPEN_DRAWER, CLOSE_DRAWER, OPEN_MAIN_MENU, CLOSE_MAIN_MENU} from "../types";
 
 const initialState = {
-    component: null
+    component: null,
+    isMenuOpened: false
 }
 
 export default function appReducer (state = initialState, action) {
@@ -16,6 +17,18 @@ export default function appReducer (state = initialState, action) {
             return {
                 ...state,
                 component: null
+            }
+        }
+        case OPEN_MAIN_MENU: {
+            return {
+                ...state,
+                isMenuOpened: true
+            }
+        }
+        case CLOSE_MAIN_MENU: {
+            return {
+                ...state,
+                isMenuOpened: false
             }
         }
 
